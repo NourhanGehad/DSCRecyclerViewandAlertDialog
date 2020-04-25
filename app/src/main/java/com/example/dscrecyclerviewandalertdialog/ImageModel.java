@@ -3,6 +3,7 @@ package com.example.dscrecyclerviewandalertdialog;
 public class ImageModel {
     private Integer image;
     private String name;
+    private String description = "";
 
     public ImageModel(Integer image, String name) {
         this.image = image;
