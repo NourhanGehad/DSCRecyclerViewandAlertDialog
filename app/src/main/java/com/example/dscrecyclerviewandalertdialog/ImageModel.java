@@ -4,6 +4,7 @@ public class ImageModel {
     private Integer image;
     private String name;
     private String description = "";
+    private String dateOfIssuing = "";
 
     public ImageModel(Integer image, String name) {
         this.image = image;
